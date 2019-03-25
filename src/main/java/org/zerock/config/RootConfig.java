@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 public class RootConfig {
 	
 	
-	
+	//Database Ã³¸® 
 
     @Bean
     public DataSource dataSource(){
