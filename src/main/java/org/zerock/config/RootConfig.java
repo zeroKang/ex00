@@ -15,6 +15,9 @@ import javax.sql.DataSource;
 @ComponentScan(basePackages = {"org.zerock.domain"})
 @MapperScan(basePackages= {"org.zerock.mapper"})
 public class RootConfig {
+	
+	
+	
 
     @Bean
     public DataSource dataSource(){
